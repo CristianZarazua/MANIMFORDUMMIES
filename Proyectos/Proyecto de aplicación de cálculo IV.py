@@ -95,7 +95,7 @@ class Inicio(Scene):
         materia.move_to([0, 0, 0]).scale(1.5).set_color_by_gradient(RED, ORANGE, YELLOW, GREEN, BLUE, PURPLE)
         por.move_to([0, 0, 0]).scale(1.5).set_color_by_gradient(RED, ORANGE, YELLOW, GREEN, BLUE, PURPLE)
         
-        # MOdificaciones de textos unidos
+        # Modificaciones de textos unidos
         texto_unificado = VGroup(nombre1, nombre2, nombre3, nombre4, nombre5)
         texto_unificado.arrange(DOWN, aligned_edge=ORIGIN)
         texto_unificado.move_to([0, 0, 0])  # <-- CENTRADO EXACTO EN PANTALLA
