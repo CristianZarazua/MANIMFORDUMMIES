@@ -45,7 +45,7 @@ class Inicio(Scene):
         # Modificaciones de textos unidos
         texto_unificado = VGroup(nombre1, nombre2, nombre3, nombre4, nombre5)
         texto_unificado.arrange(DOWN, aligned_edge=ORIGIN)
-        texto_unificado.move_to([0, 0, 0])  # <-- CENTRADO EXACTO EN PANTALLA
+        texto_unificado.move_to([0, 0, 0])  # <-- Esto es para centrar en la pantalla, estos 5 textos unificados
 
         # Animaciones
         self.play(Write(materia))
