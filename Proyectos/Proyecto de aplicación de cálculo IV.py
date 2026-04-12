@@ -4,7 +4,7 @@ class Inicio(Scene):
     def construct(self):
         # Creación del objeto Tex
         materia = Tex(
-            r"Cálculo IV",
+            r"Proyecto de aplicación\\Cálculo IV",
             tex_environment="center"
         )
 
